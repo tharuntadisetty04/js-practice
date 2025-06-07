@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "BricolageGrotesque";
+  src: url(../fonts/BricolageGrotesque-Regular.ttf);
+}
+
+*,
+body {
+  font-family: "BricolageGrotesque", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+  background-color: #fdf6f0;
+  color: #1c1c2b;
+}
+
+.container:first-child {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#clock {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 12rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5rem;
+  background-color: #b6d7b9;
+  letter-spacing: 1px;
+}
