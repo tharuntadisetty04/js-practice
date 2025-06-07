@@ -37,3 +37,16 @@ body {
   background-color: #b6d7b9;
   letter-spacing: 1px;
 }
+
+@media (max-width: 600px) {
+  .container:first-child {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  #clock {
+    width: 90%;
+    height: 10rem;
+    font-size: 3.5rem;
+  }
+}
