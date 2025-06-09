@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "BricolageGrotesque";
+  src: url(../fonts/BricolageGrotesque-Regular.ttf);
+}
+
+body {
+  font-family: "BricolageGrotesque", Arial, Helvetica, sans-serif;
+  background-color: #f0f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1.25rem;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.08);
+  max-width: 30rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.game-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0e7490;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.rules {
+  background-color: #e0f2f7;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #a5f3fc;
+  color: #0891b2;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.rules p {
+  margin: 0.25rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0e7490;
+}
+
+.guessField {
+  padding: 0.75rem 1rem;
+  border: 2px solid #67e8f9;
+  border-radius: 0.6rem;
+  font-size: 1.25rem;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.3s ease;
+  color: #1f2937;
+  font-family: "BricolageGrotesque";
+}
+
+.guessField:focus {
+  border-color: #22d3ee;
+}
+
+form button {
+  background-color: #22d3ee;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-family: "BricolageGrotesque";
+}
+
+.resultParas p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #2f879b;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.resultParas span {
+  font-weight: 600;
+  color: #0e7490;
+}
+
+.lowOrHigh {
+  font-weight: 600;
+  color: #fbbf24;
+  font-size: 1.2rem;
+}
+
+#game-won,
+#game-lose {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 30rem;
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 1.4%;
+}
+
+#game-won h2,
+#game-lose h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+#game-won h2 {
+  color: #22c55e;
+}
+
+#game-lose h2 {
+  color: #ef4444;
+}
+
+.replay {
+  background-color: #22d3ee;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+  border: none;
+  cursor: pointer;
+  font-family: "BricolageGrotesque";
+}
+
+@media (max-width: 600px) {
+  #game-won,
+  #game-lose {
+    max-width: 17.6rem;
+  }
+}
