@@ -27,3 +27,10 @@ A fun game where you guess a randomly generated number within a range.
 
 ![Number Guessing Game Screenshot](num-guessing-game/screenshot.png)
 [Live Demo](https://tharuntadisetty04.github.io/js-practice/num-guessing-game/)
+
+## Project 5 - Disco Party
+
+A colorful and interactive project that creates a disco party effect by rapidly changing background colors and adding fun animations.
+
+![Disco Party Screenshot](disco-party/screenshot.png)
+[Live Demo](https://tharuntadisetty04.github.io/js-practice/disco-party/)
