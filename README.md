@@ -34,3 +34,10 @@ A colorful and interactive project that creates a disco party effect by rapidly 
 
 ![Disco Party Screenshot](disco-party/screenshot.png)
 [Live Demo](https://tharuntadisetty04.github.io/js-practice/disco-party/)
+
+## Project 6 - Keylogger
+
+A simple keylogger app that displays the key, key code, and code of any key you press in a styled table.
+
+![Keylogger Screenshot](keylogger/screenshot.png)
+[Live Demo](https://tharuntadisetty04.github.io/js-practice/keylogger/)
